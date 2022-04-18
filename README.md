@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 461df4cd154f632513906217584e88ccd2ddc60a
 # todo-project
 ## Wireframe Photos
 ### Home Page
