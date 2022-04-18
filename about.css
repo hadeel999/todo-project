@@ -1,13 +1,122 @@
-body{background-color: rgb(187, 236, 236);}
-h1{color: rgb(8, 0, 122);}
-h4{color: rgb(8, 0, 122);}
-h2{color: rgb(8, 0, 122);}
-h3{color: rgb(8, 0, 122);}
-h5{color: rgb(8, 0, 122);}
-form{color: rgb(14, 1, 52);}
-<<<<<<< HEAD
-form{font-size: larger;}
-=======
-form{font-size: larger;}
-h1{font-style: italic;}
->>>>>>> a4783e7351970b05f78d258c4405b40017fae05f
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+
+header{
+    background-color: grey;
+    display: flex;
+    padding: 1rem ;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+body{
+    padding: 3rem;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(12, 12, 83);
+}
+
+#home{
+    font-size: 1.5rem;
+    padding-left: 5rem;
+}
+#about{
+    font-size: 1.5rem;
+    padding-right: 10rem;
+}
+
+section{
+    padding: 3rem, 7%;
+}
+
+#aboutMe{
+    display: flex;
+    padding: 1rem ;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 3rem;
+    color: rgb(12, 12, 83);
+
+}
+
+h2{
+    padding-top: 3.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    color: rgb(12, 12, 83);
+
+}
+
+img{
+padding-bottom: 0;
+}
+
+
+p{
+    text-align: center;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    font-size: 1.5rem;
+    color: rgb(12, 12, 83);
+
+}
+
+#myFormN{
+    text-align: center;
+    padding: 2rem ;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: rgb(12, 12, 83);
+    padding-left: 7rem;
+    padding-right: 7rem;
+    text-transform: capitalize;
+    color: rgb(12, 12, 83);
+
+}
+
+button{
+    text-transform: capitalize;
+    color: rgb(12, 12, 83);
+    font-size: 1.5rem;
+    background-color:grey;
+
+}
+
+
+footer{
+    text-align: center;
+    padding-top: 2rem;
+    background-color: grey;
+    vertical-align: middle;
+    padding-bottom: 2rem;
+}
