@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> a4783e7351970b05f78d258c4405b40017fae05f
 # todo-project
 ## Wireframe Photos
 ### Home Page
@@ -8,4 +12,8 @@
 #### What observations or questions do you have about what you’ve learned so far?
 I just had a problem with setting up my repository from task 3 and today's task is on the same repository so even if it's late but I tried to write some commands, I hope my repository's setting up process is done successfully.
 #### How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+<<<<<<< HEAD
 It took me around 2 hours.
+=======
+It took me around 2 hours.
+>>>>>>> a4783e7351970b05f78d258c4405b40017fae05f
