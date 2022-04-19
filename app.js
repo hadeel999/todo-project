@@ -26,4 +26,3 @@ for(let i=0;i<3;i++){
    answers.push(answer);
    console.log(answers[i]);
 }
-
