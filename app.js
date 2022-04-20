@@ -17,13 +17,17 @@ console.log("Welcome page is skipped!");
 
 let questions=["Did you eat your breakfast?","Do you like eating meat?","Do you like eating Knafeh"];
 let answers=[];
-let answer,valid;
-let askUser = (question) => {return prompt(question)}
 
-for(let i=0;i<3;i++){
-   answer=askUser(questions[i]);
-   (answer=="")?answers.push("invalid"):
-   answers.push(answer);
-   console.log(answers[i]);
+let askUser = (question) => {return prompt(question)}
+let getAnswers = () => { 
+    let answer;
+    for(let i=0;i<3;i++){
+        answer=askUser(questions[i]);
+        (answer=="")?answers.push("invalid"):
+        answers.push(answer);
+        console.log(answers[i]);
+     }
 }
+
+getAnswers();
 
