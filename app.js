@@ -19,6 +19,7 @@ let questions=["Did you eat your breakfast?","Do you like eating meat?","Do you 
 let answers=[];
 let answer,valid;
 
+
 let askUser = (question) => {return prompt(question)}
 let getAnswers = () => { 
     let answer;
